@@ -1,0 +1,128 @@
+/*HERO SECTION*/
+.hero{
+   background-image: url(../img/alp.jpg);
+   height: 100vh;
+   background-size: cover;
+   background-repeat: no-repeat; 
+   background-position: center;   
+}
+
+.hero .hero-prt-img{
+   height: 600px;
+   width: 600px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   left: 450px;   
+   top: 150px;
+}
+
+.hero .hero-main{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+   bottom: 250px;
+}
+
+.hero .hero-main .hero-qoutes-1{
+   margin-left: 30px;
+   position: relative;
+   bottom: 150px;
+}
+.hero .hero-main .hero-qoutes-2{
+   margin-right: 50px;
+   position: relative;
+   top: 70px;
+}
+
+.hero .hero-main h1{
+   font-size: 50px;
+   line-height: 48px;
+   margin-bottom: 10px;
+}
+
+.hero p{
+   font-size: 20px;
+   line-height: 25px;
+}
+
+.hero a{
+   margin-top: 30px;
+   font-size: 22px;
+   color: white;
+   display: block;
+   background-color: blue;
+   padding: 10px 20px;
+   width: fit-content;
+}
+
+/*CATEGORY SECTION*/
+
+.index-category{
+   width: 100%;
+   padding: 60px 0;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   column-gap: 50px;
+   flex-wrap: wrap;
+}
+
+.index-category p{
+   color: #111;
+   text-align: center;
+   padding-bottom: 40px;
+   flex-basis: 100%;
+   text-transform: uppercase;
+   font-size: 20px;
+}
+
+.index-category-box{
+   width: 250px;
+   height: 250px;
+   background-color: black;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+
+.index-category-box:nth-child(2){
+   background-image: url(../img/category/project-1.jpg);
+}
+.index-category-box:nth-child(3){
+   background-image: url(../img/category/project-2.jpg);
+}
+.index-category-box:nth-child(4){
+   background-image: url(../img/category/project-3.jpg);
+}
+.index-category-box:nth-child(5){
+   background-image: url(../img/category/project-4.jpg);
+}
+
+.dark-overlay{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background-color: #000;
+   opacity: 0.5;
+   transition: all ease-in-out 150ms;
+}
+
+.index-category-box:hover .dark-overlay{
+  opacity: 0;
+}
+
+.index-category-box-h3{
+   font-size: 22px;
+   line-height: 28px;
+   text-align: center;
+   text-shadow: -2px 2px 4px black;
+   z-index: 100;
+}

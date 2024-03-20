@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Sensors.html</title>
+   <link rel="stylesheet" href="sen.css">
+</head>
+<body>
+   <main class="table">
+      <section class="table_header">
+         <h1>ALL SENSORES</h1>
+      </section>
+      <section class="table_body">
+         <table>
+            <thead>
+               <tr>
+                  <th>Name</th>
+                  <th>Picture</th>
+                  <th>Discription</th>
+                  <th>Button</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td><strong>DHT11 Temperature-Humidity Sensor</strong></td>
+                  <td><img src="images\dht11-temperature-humidity-sensor.jpg" alt="DHT11"></td>
+                  <td>
+                     <p>
+                        It can be used for detecting ambient temperature and humidity, through the standard single-wire interface.
+                     </p>
+                  </td>
+                  <td>
+                     <!--Toggle Button-->
+                     <label class="toggle" for="myToggle">
+                        <input class="toggle__input" type="checkbox" id="myToggle">
+                        <div class="toggle__fill"></div>
+                     </label>
+                  </td>
+               </tr>
+               
+               <tr>
+                  <td><strong>Ultrasonic Distance Sensor</strong></td>
+                  <td><img src="images\distance-sensor.jpg" alt="DHT11"></td>
+                  <td>
+                     <p>
+                        The HC-SR04 Ultrasonic Range Sensor uses non-contact ultrasound sonar to measure the distance to an object - they're great for any obstacle avoiding systems on Raspberry Pi robots or rovers!
+                     </p>
+                  </td>
+                  <td>
+                     <!--Toggle Button-->
+                     <label class="toggle" for="myToggle">
+                        <input class="toggle__input" type="checkbox" id="myToggle">
+                        <div class="toggle__fill"></div>
+                     </label>
+                  </td>
+               </tr>
+
+               <tr>
+                  <td><strong>Sound Sensor</strong></td>
+                  <td><img src="images\sound-sensor.jpg" alt="DHT11"></td>
+                  <td>
+                     <p>
+                        Sound sensors are handy for detecting noise or other sounds near your project - great for monitoring projects, alarm projects and more.
+                     </p>
+                  </td>
+                  <td>
+                     <!--Toggle Button-->
+                     <label class="toggle" for="myToggle">
+                        <input class="toggle__input" type="checkbox" id="myToggle">
+                        <div class="toggle__fill"></div>
+                     </label>
+                  </td>
+               </tr>
+               
+            </tbody>
+         </table>
+      </section>
+   </main>
+</body>
+</html>
